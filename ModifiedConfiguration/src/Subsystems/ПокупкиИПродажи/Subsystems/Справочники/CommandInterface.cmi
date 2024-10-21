@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ил_КонтактныеЛица.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.НоменклатурныеГруппы.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
+      <commands>Catalog.ил_Должности.StandardCommand.OpenList</commands>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.ил_КонтактныеЛица.StandardCommand.OpenList</commands>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.НоменклатурныеГруппы.StandardCommand.OpenList</commands>
+      <commands>Catalog.Организации.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>
