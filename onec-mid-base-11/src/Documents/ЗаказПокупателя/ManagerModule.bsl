@@ -3,6 +3,11 @@
 
 #Область ПрограммныйИнтерфейс
 
+//@skip-check export-procedure-missing-comment
+//@skip-check bsl-legacy-check-method-for-statements-after-return
+//@skip-check doc-comment-export-function-return-section
+//@skip-check doc-comment-parameter-section
+//@skip-check doc-comment-parameter-section
 Функция ДобавитьКомандыСозданияНаОсновании(КомандыСозданияНаОсновании, Параметры) Экспорт
 	
     Документы.РеализацияТоваровУслуг.ДобавитьКомандуСоздатьНаОсновании(КомандыСозданияНаОсновании);
@@ -10,10 +15,18 @@
 	
 КонецФункции
 
+//@skip-check export-procedure-missing-comment
+//@skip-check doc-comment-parameter-section
 Процедура ПриОпределенииНастроекПечати(НастройкиОбъекта) Экспорт	
 	НастройкиОбъекта.ПриДобавленииКомандПечати = Истина;
 КонецПроцедуры
 
+// добавляет команду Печати
+//
+// Параметры:
+//   КомандыПечати - Структура - имена имена команд.
+//
+//@skip-check export-procedure-missing-comment
 Процедура ДобавитьКомандыПечати(КомандыПечати) Экспорт
 	
 	// Заказ покупателя
@@ -42,6 +55,12 @@
 	
 КонецПроцедуры
 
+//@skip-check export-procedure-missing-comment
+//@skip-check doc-comment-parameter-section
+//@skip-check doc-comment-parameter-section
+//@skip-check doc-comment-parameter-section
+//@skip-check doc-comment-parameter-section
+//@skip-check doc-comment-parameter-section
 Процедура Печать(МассивОбъектов, ПараметрыПечати, КоллекцияПечатныхФорм, ОбъектыПечати, ПараметрыВывода) Экспорт
 	
 	ПечатнаяФорма = УправлениеПечатью.СведенияОПечатнойФорме(КоллекцияПечатныхФорм, "Заказ");
